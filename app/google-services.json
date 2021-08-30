@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2140824828",
+    "firebase_url": "https://realtimeiot-add91-default-rtdb.firebaseio.com",
+    "project_id": "realtimeiot-add91",
+    "storage_bucket": "realtimeiot-add91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2140824828:android:8d956504792ee265dc6379",
+        "android_client_info": {
+          "package_name": "com.example.realtimesensoriot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2140824828-ovupro0s8iupmsg8h47lg3v5lo85frtf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realtimesensoriot",
+            "certificate_hash": "228be173f40c565edbfca613092ab33ee1930475"
+          }
+        },
+        {
+          "client_id": "2140824828-3ob1e6g8sim3b4h70dlq3mii7qmroes0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh7KloP1akS_8lSwWT1GDbAJEK56a7vGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2140824828-3ob1e6g8sim3b4h70dlq3mii7qmroes0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

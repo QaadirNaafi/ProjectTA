@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="RealTime Sensor Firebase"
+            android:background="@drawable/header_bg"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/corner_bg">
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/btn_temp"
+                android:background="@drawable/btn_termo"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/corner_bg">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/btn_hum"
+                android:background="@drawable/btn_hum"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/corner_bg">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flame Sensor"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="55dp" />
+
+                <TextView
+                    android:id="@+id/nilai3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OFF"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/corner_bg">
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/btn_gas"
+                    android:background="@drawable/btn_gas"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_bg"
+                android:layout_margin="5dp"
+                android:text="Control Alat"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/btnabout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_bg"
+                android:layout_margin="5dp"
+                android:text="About"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailDiagram">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.shinelw.library.ColorArcProgressBar
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bar1"
+            app:is_need_content="true"
+            app:front_color1="#00FF00"
+            app:front_color2="#FFFF00"
+            app:front_color3="#FF0000"
+            app:back_width="2dp"
+            app:front_width="10dp"
+            app:total_engle="270"
+            app:is_need_unit="true"
+            app:string_unit="C"
+            app:is_need_title="true"
+            app:string_title="Temperature"
+            app:back_color="@android:color/darker_gray"
+            android:layout_marginTop="25dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperature :"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="0"
+                android:id="@+id/txtsuhu"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="C"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnback"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali" />
+
+    </LinearLayout>
+
+</RelativeLayout>

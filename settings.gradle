@@ -1,0 +1,2 @@
+rootProject.name = "RealtimeSensorIOT"
+include ':app'

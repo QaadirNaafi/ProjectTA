@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RealtimeSensorIOT</string>
+    <string name="About">Aplikasi ini merupakan aplikasi yang digunakan untuk memantau dan mengendalikan
+    peralatan elektronik yang ada dirumah anda.</string>
+</resources>

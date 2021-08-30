@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.ekn.gruzer.gaugelibrary.FullGauge
+            android:id="@+id/full_gauge"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+<!--        <com.mikhaellopez.circularprogressbar.CircularProgressBar-->
+<!--            android:id="@+id/progress_circular"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            app:cpb_background_progressbar_color="#FFCDD2"-->
+<!--            app:cpb_background_progressbar_width="5dp"-->
+<!--            app:cpb_progress_max="900"-->
+<!--            app:cpb_progressbar_color="#F44336"-->
+<!--            app:cpb_progressbar_width="10dp" />-->
+
+<!--        <com.github.lzyzsd.circleprogress.DonutProgress-->
+<!--            android:id="@+id/donut_progress"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gas :"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="0"
+                android:id="@+id/txtgas"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:text="%"/>-->
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali" />
+
+    </LinearLayout>
+
+</RelativeLayout>
